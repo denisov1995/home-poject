@@ -1,0 +1,56 @@
+.big_bukva {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--all);
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.big_bukva_index {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #a7a7a7;
+  line-height: 3.5rem;
+}
+
+.modal-window {
+  display: none;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+.modal-window.show {
+  display: block;
+}
+
+.modal-wrapper {
+  overflow-y: scroll;
+
+}
+
+.modal-content {
+  height: 60vh;
+}
+
+.modal-wrapper::-webkit-scrollbar {
+  display: none; /* Скрываем скроллбар для WebKit-браузеров (Chrome, Safari) */
+}
+
+.big_bukva {
+  background: linear-gradient(94.43deg, #02aaec 5.35%, #43e9e4 121.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.close {
+  display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 6px;
+    top: -6px;
+    
+}
+
+.modal-wrapper > .link_reg_cities {
+  font-size: 24px;
+}
